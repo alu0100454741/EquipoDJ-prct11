@@ -9,9 +9,7 @@ Javier Mena Mena
 
 Descripción de la práctica
 --------------------------
-Esta práctica en equipo consiste documentar la gema (utlizando RDOC) y desarrollar métodos con la filosofía de la programación funcional para la representación de Matrices de prácticas anteriores.
-
-
+Esta práctica en equipo consiste documentar la gema (utlizando RDOC) y desarrollar métodos con la filosofía de la programación funcional para la representación de Matrices de prácticas anteriores.  
 
 
 ---
