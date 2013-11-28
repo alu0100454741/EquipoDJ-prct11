@@ -1,4 +1,4 @@
-Copyright (c) 2013 Javier Mena
+Copyright (c) 2013 Javier Mena Mena, Diego Williams Aguilar Montaño
 
 MIT License
 
