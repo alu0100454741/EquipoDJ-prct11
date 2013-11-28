@@ -13,14 +13,14 @@ Esta práctica en equipo consiste documentar la gema (utlizando RDOC) y desarrol
 
 Reglas Básicas de Marcado
 --------------------------
-= cabecera de nivel 1.
-== cabecera de nivel 2.
-=== Cabecera de nivel 3
-etiqueta:: para hacer referencia a una etiqueta o label
-* o - crea un elemento de una lista.
-# crea un elemento de una lista numerada.
-Con las palabras se puede hacer: *negrita*, _itálica_ y +codigo+.
-Tambien podemos usar <b></b> , <em></em> , <tt></tt> 
+* = cabecera de nivel 1.
+* == cabecera de nivel 2.
+* === Cabecera de nivel 3
+* etiqueta:: para hacer referencia a una etiqueta o label
+* * o - crea un elemento de una lista.
+* # crea un elemento de una lista numerada.
+* Con las palabras se puede hacer: *negrita*, _itálica_ y +codigo+.
+* Tambien podemos usar <b></b> , <em></em> , <tt></tt> 
 
 ---
 
