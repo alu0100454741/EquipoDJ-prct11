@@ -53,7 +53,7 @@ module Matrixlpp
       end
     # Reduce la fracción a su mínima expresión.
       def reducir
-          mcd = MathExpansion::gcd(@num,@den)
+          mcd = Matrixlpp::gcd(@num,@den)
           @num = @num / mcd
           @den = @den / mcd
       end
