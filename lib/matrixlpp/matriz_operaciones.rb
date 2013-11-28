@@ -23,7 +23,7 @@ module Matrixlpp
       end
       
       if (c.null_percent > 0.6)
-        return MathExpansion::Matriz_Dispersa.copy(c)
+        return Matrixlpp::Matriz_Dispersa.copy(c)
       else
         return c
       end 
@@ -46,7 +46,7 @@ module Matrixlpp
       end
       
       if (c.null_percent > 0.6)
-        return MathExpansion::Matriz_Dispersa.copy(c)
+        return Matrixlpp::Matriz_Dispersa.copy(c)
       else
         return c
       end 
@@ -81,7 +81,7 @@ module Matrixlpp
       end
 
       if (c.null_percent > 0.6)
-        return MathExpansion::Matriz_Dispersa.copy(c)
+        return Matrixlpp::Matriz_Dispersa.copy(c)
       else
         return c
       end
