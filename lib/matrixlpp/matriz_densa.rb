@@ -1,4 +1,4 @@
-require "matrixlpp/matriz.rb"
+require "./lib/matrixlpp/matriz.rb"
 
 module Matrixlpp
   # Esta clase permite representar matrices densas. Las matrices densas son aquellas que no tienen más de un 60% de elementos nulos.

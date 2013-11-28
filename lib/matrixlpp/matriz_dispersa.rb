@@ -1,5 +1,5 @@
-require "matrixlpp/matriz.rb"
-require "matrixlpp/matriz_densa.rb"
+require "./lib/matrixlpp/matriz.rb"
+require "./lib/matrixlpp/matriz_densa.rb"
 
 module Matrixlpp
   # Esta clase permite representar matrices dispersas. Estas matrices tendrán un 60% o más de valores nulos.

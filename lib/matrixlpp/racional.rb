@@ -1,4 +1,4 @@
-require "matrixlpp/gcd.rb"
+require "./lib/matrixlpp/gcd.rb"
 
 module Matrixlpp  
 # Esta clase permite representar números racionales de la forma _numerador/denominador_.

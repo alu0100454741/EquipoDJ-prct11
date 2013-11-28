@@ -1,4 +1,4 @@
-require 'matrixlpp/racional.rb'
+require './lib/matrixlpp/racional.rb'
 
 module Matrixlpp
 # Esta clase contendrá el número de filas y columnas de la matriz.

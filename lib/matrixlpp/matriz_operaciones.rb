@@ -1,6 +1,6 @@
-require "matrixlpp/matriz.rb"
-require "matrixlpp/matriz_dispersa.rb"
-require "matrixlpp/matriz_densa.rb"
+require "./lib/matrixlpp/matriz.rb"
+require "./lib/matrixlpp/matriz_dispersa.rb"
+require "./lib/matrixlpp/matriz_densa.rb"
 
 module Matrixlpp
   class Matriz  
