@@ -29,7 +29,7 @@ module Matrixlpp
     # * *Devuelve*    :
     #   - +obj+: Referencia al objeto creado.
     def self.copy(matriz)
-      raise ArgumentError, 'Tipo invalido' unless matriz.is_a? MathExpansion::Matriz_Densa
+      raise ArgumentError, 'Tipo invalido' unless matriz.is_a? Matrixlpp::Matriz_Densa
       obj = new(matriz.N, matriz.M)
     
       i = 0
