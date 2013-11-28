@@ -1,6 +1,8 @@
 $:.unshift File.dirname(__FILE__) + 'lib'
 $:.unshift './lib', './spec'
 
+require 'rdoc/task'
+
 require "bundler/gem_tasks"
 
 require 'rspec/core/rake_task'
@@ -22,3 +24,9 @@ desc "Pruebas unitarias de las clases Matriz_Densa y Matriz_Dispersa"
 task :tc do
         sh "ruby -I. test/tc_matrixlpp.rb"
 end
+
+ Rake::RDocTask.new do |rd|
+    rd.main = "README.rdoc"
+    rd.rdoc_files.include("README.rdoc", "lib/**/*.rb")
+  end
+
