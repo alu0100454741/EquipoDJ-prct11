@@ -20,7 +20,7 @@ Reglas Básicas de Marcado
 * * o - crea un elemento de una lista.
 * # crea un elemento de una lista numerada.
 * Con las palabras se puede hacer: *negrita*, _itálica_ y +codigo+.
-* Tambien podemos usar '<b></b>' , '<em></em>' , '<tt></tt>'
+* Tambien podemos usar codigo html
 
 ---
 
