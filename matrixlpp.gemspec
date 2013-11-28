@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["alu0100454741@ull.edu.es","alu0100592368@ull.edu.es"]
   spec.description   = %q{Esta es una clase Matrix}
   spec.summary       = %q{Contiene todo lo necesario para definir una clase matrix}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/alu0100454741/EquipoDJ-prct11"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
