@@ -1,29 +1,19 @@
-# Matrixlpp
+Práctica de Laboratorio #11
+===========================
 
-TODO: Write a gem description
 
-## Installation
+Equipo-DJ 
+---------
+Diego Williams Aguilar Montaño   
+Javier Mena Mena
 
-Add this line to your application's Gemfile:
+Descripción de la práctica
+--------------------------
+Esta práctica en equipo consiste documentar la gema (utlizando RDOC) y desarrollar métodos con la filosofía de la programación funcional para la representación de Matrices de prácticas anteriores.  
 
-    gem 'matrixlpp'
 
-And then execute:
+---
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install matrixlpp
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Universidad de La Laguna  
+Escuela Técnica Superior de Ingeniería Informática  
+Lenguajes y Paradigmas de la Programación 2013-14
