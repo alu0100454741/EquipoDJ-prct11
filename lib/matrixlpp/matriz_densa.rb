@@ -4,6 +4,7 @@ module Matrixlpp
   # Esta clase permite representar matrices densas. Las matrices densas son aquellas que no tienen más de un 60% de elementos nulos.
   # Su representación será muy similar a como se suelen representar tradicionalmente.
   class Matriz_Densa < Matriz
+
     # Constructor de la matriz. Crea una matriz de tamaño N*M inicializada a valores nulos.
     # * *Argumentos*    :
     #   - +n+: Número de filas. Debe ser mayor que 0.
@@ -18,6 +19,7 @@ module Matrixlpp
         i += 1  
       end
     end
+
     # Permite obtener el elemento en la posición (i,j), donde:
     # * *Argumentos*    :
     #   - +i+: Número de fila.
@@ -32,6 +34,7 @@ module Matrixlpp
 
       @contenido[i][j]
     end
+    
     # Devuelve el porcentaje de valores nulos que hay en la matriz.
     # * *Devuelve*    :
     #   - Número flotante entre 0 y 1 que represente cuantos valores nulos existen en la matriz densa.
