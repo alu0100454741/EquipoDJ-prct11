@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in math_expansion.gemspec
+# Specify your gem's dependencies in matrixlpp.gemspec
 gemspec
 gem 'guard'
 gem 'guard-rspec'
