@@ -6,10 +6,10 @@ require 'matrixlpp/version'
 Gem::Specification.new do |spec|
   spec.name          = "matrixlpp"
   spec.version       = Matrixlpp::VERSION
-  spec.authors       = ["Javier Mena"]
-  spec.email         = ["alu0100454741@ull.edu.es"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Javier Mena Mena", "Diego Williams Aguilar Montaño"]
+  spec.email         = ["alu0100454741@ull.edu.es","alu0100592368@ull.edu.es"]
+  spec.description   = %q{Esta es una clase Matrix}
+  spec.summary       = %q{Contiene todo lo necesario para definir una clase matrix}
   spec.homepage      = ""
   spec.license       = "MIT"
 
