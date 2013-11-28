@@ -28,29 +28,29 @@ end
 # Clase de pruebas unitarias.
 class Test_Matriz < Test::Unit::TestCase
 	# En este método se prueba que la suma de dos matrices densas @m1 y @m2 coincida con una matriz resultado densa @m3.
-        def test_simple
+    def test_simple
 		@m1 = Matrixlpp::Matriz_Densa.new(2,2)
-	        @m2 = Matrixlpp::Matriz_Densa.new(2,2)
+		@m2 = Matrixlpp::Matriz_Densa.new(2,2)
 		@m3 = Matrixlpp::Matriz_Densa.new(2,2)
         
-        	@m1.set(0,0,1)
-        	@m1.set(0,1,2)
-        	@m1.set(1,0,3)
-        	@m1.set(1,1,4)
-        	
-        	@m2.set(0,0,5)
-        	@m2.set(0,1,6)
-        	@m2.set(1,0,7)
-        	@m2.set(1,1,8)
+    	@m1.set(0,0,1)
+    	@m1.set(0,1,2)
+    	@m1.set(1,0,3)
+    	@m1.set(1,1,4)
+    	
+    	@m2.set(0,0,5)
+    	@m2.set(0,1,6)
+    	@m2.set(1,0,7)
+    	@m2.set(1,1,8)
 
 		@m3.set(0,0,6)
 		@m3.set(0,1,8)
 		@m3.set(1,0,10)
 		@m3.set(1,1,12)
 
-
 		assert_equal(@m3.to_s,(@m1+@m2).to_s)
 	end
+
 	# En este método se prueba que la resta entre dos matrices dispersas @md1 y @md2 coincida con una matriz dispersa resultado @m3.
 	def test_simple2
 		@md1 = Matrixlpp::Matriz_Dispersa.new(2,2)
@@ -73,9 +73,8 @@ class Test_Matriz < Test::Unit::TestCase
 		@m3.set(1,1,0)
 
 		assert_equal(@m3.to_s,(@md1-@md2).to_s)
-
-
 	end
+
 	# En este método se prueba que se de un fallo de tipo (TypeError).
 	def test_typecheck
 		@m1 = Matrixlpp::Matriz_Densa.new(1,1)
@@ -85,6 +84,7 @@ class Test_Matriz < Test::Unit::TestCase
 
 		assert_raise(TypeError) {@m1+@m2}
 	end
+	
 	# En este test se hace fallar intencionadamente al programa.
 	def test_failure
 		@m1 = Matrixlpp::Matriz_Densa.new(1,1)

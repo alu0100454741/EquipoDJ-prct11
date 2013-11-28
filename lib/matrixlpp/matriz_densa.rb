@@ -69,10 +69,10 @@ module Matrixlpp
        return nil
       end
         
-      if(!(value.class.respond_to? :null))
-        puts "Se debe definir el metodo \"null\" que devuelva un elemento nulo para la clase #{value.class}"
-        return nil
-      end
+      # if(!(value.class.respond_to? :null))
+      #   puts "Se debe definir el metodo \"null\" que devuelva un elemento nulo para la clase #{value.class}"
+      #   return nil
+      # end
       #--
       # Contar elementos nulos y comprobar si se hace una matriz dispersa
       # De momento, no dejamos añadir elementos nulos
