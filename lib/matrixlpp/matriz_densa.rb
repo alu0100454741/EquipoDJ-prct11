@@ -20,6 +20,9 @@ module Matrixlpp
       end
     end
 
+
+
+
     # Permite obtener el elemento en la posición (i,j), donde:
     # * *Argumentos*    :
     #   - +i+: Número de fila.
@@ -99,24 +102,43 @@ module Matrixlpp
       end
       s
     end
+
+
+    def encontrar
+      m = get(0,0)
+      i = 0
+      j = 0
+      while(i < @N)
+        while(j < @M)
+          m = get(i,j)
+          if yield (m)
+            return [i, j]
+          end
+          j += 1
+        end
+        i += 1
+      end
+      return nil
+    end
+
     
     # Devuelve el máximo valor almacenado en la matriz.
     # * *Devuelve*    :
     #   - Valor máximo almacenado en la matriz.
     def max
-	m = get(0,0)
-        i = 0
-	while(i < @N)
-		j = 0
-		while(j < @M)
-			if (get(i,j) > m)
-				m = get(i,j)
-			end
-			j += 1
-		end
-		i += 1
-	end
-	m
+      m = get(0,0)
+      i = 0
+      while(i < @N)
+		    j = 0
+		    while(j < @M)
+          if (get(i,j) > m)
+            m = get(i,j)
+          end
+          j += 1
+        end
+        i += 1
+      end
+      m
     end
     
     # Devuelve el mínimo valor almacenado en la matriz.
